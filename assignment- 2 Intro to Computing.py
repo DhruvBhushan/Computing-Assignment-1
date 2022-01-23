@@ -113,17 +113,12 @@ print()
 
 #Answer 5
 
-s= input("tell something about yourself:",)
-y=s.split()
-print(y)
-for i in y:
-  if(i=='name'):
-    print(yes)
-  else:
-     print(no)
-print(done)
+s = input('something:')
 
-print()
+for name in s:
+    print("yes")
+else:
+    print("no")
         
             
  

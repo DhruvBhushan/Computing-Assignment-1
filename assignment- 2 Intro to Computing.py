@@ -40,15 +40,16 @@ print()
 
 
 #Answer2
+#input name
 x="Hey,"
 y=" Here!"
 name =input('Enter Name:',) 
 
-
+#input sid
 temp="My SID is " 
 SID= input('sid:',)
 
-
+#input departement and cgpa
 temp1="I am from "
 XYZ= input('department name:',)
 temp2=" department and my cgpa is "
@@ -58,6 +59,7 @@ CGPA= input('enter  CGPA:',)
 print()
 print()
 
+#result
 print(x+name +y)
 print(temp+SID)
 print(temp1+XYZ+temp2+CGPA)
@@ -68,6 +70,7 @@ print()
 
 
 #Answer 4
+#enter the numbers for comparison
 n1=int(input("enter the 1st number:"))
 n2=int(input("enter the 2nd number:"))
 n3=int(input("enter the 3rd number:"))
@@ -91,6 +94,7 @@ print()
 print()
 
 #Answer6
+#input length of sides of triangle
 l1=int(input("length of 1st side :"))
 l2=int(input("length of 2nd side :"))
 l3=int(input("length of 3rd side :"))

@@ -114,7 +114,7 @@ print()
 #Answer 5
 
 s= input("tell something about yourself:",)
-y=sentence.split()
+y=s.split()
 print(y)
 for i in y:
   if(i=='name'):
